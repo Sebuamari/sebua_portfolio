@@ -1,0 +1,49 @@
+.skills_container {
+
+    .categories {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 40px;
+
+        .category {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 20px;
+
+            h2 {
+                font-size: 25px;
+                color: #B5BAD0;
+            }
+
+            ul {
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+
+                .skill {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: var(--header-background-color);
+                    border-radius: 10px;
+                    gap: 5px;
+                    padding: 8px 13px;
+
+                    img {
+                        width: 50px;
+                        height: 50px;
+                    }
+
+                    p {
+                        font-size: 15px;
+                        color: #B5BAD0;
+                    }
+                }
+            }
+        }
+    }
+}
