@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header.jsx";
 import Background from "./components/Background.jsx";
 import Landing from "./pages/Landing.jsx";
@@ -11,10 +11,10 @@ import "./styles/global.scss";
 
 function App() {
   return (
-    <>
-      <Header />
-      <Background />
-      <div className="App">
+    <div className="App">
+      <BrowserRouter>
+        <Header />
+        <Background />
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/about" element={<About />} />
@@ -22,8 +22,8 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-      </div>
-    </>
+      </BrowserRouter>
+    </div>
   );
 }
 

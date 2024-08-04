@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import HeaderStyles from "../styles/Header.module.scss";
 import ThemeSwitcher from "./ThemeSwitcher.jsx";
 import HamburgerMenu from './HamburgerMenu.jsx';
@@ -21,10 +22,10 @@ function Header() {
               <HamburgerMenu onClick={toggleClasses}/>
               <div className={HeaderStyles.menu_items}>
                 <ThemeSwitcher />
-                <a href="/about" data-text="<About/>">&lt;About/&gt;</a>
-                <a href="/skills" data-text="<Skills/>">&lt;Skills/&gt;</a>
-                <a href="/projects" data-text="<Projects/>">&lt;Projects/&gt;</a>
-                <a href="/contact" data-text="<Contact/>">&lt;Contact/&gt;</a>
+                <Link to="/about" data-text="<About/>">&lt;About/&gt;</Link>
+                <Link to="/skills" data-text="<Skills/>">&lt;Skills/&gt;</Link>
+                <Link to="/projects" data-text="<Projects/>">&lt;Projects/&gt;</Link>
+                <Link to="/contact" data-text="<Contact/>">&lt;Contact/&gt;</Link>
               </div>
             </div>
         </nav>
