@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sebua_portfolio/static/css/main.9a0ff23b.css",
-    "main.js": "/sebua_portfolio/static/js/main.bc9efb3c.js",
+    "main.css": "/sebua_portfolio/static/css/main.6f690316.css",
+    "main.js": "/sebua_portfolio/static/js/main.fa0c72f1.js",
     "static/media/travel.png": "/sebua_portfolio/static/media/travel.a9fcf7b123fede19e9ee.png",
     "static/media/slider.png": "/sebua_portfolio/static/media/slider.7db964f7f570b7020549.png",
     "static/media/weather.png": "/sebua_portfolio/static/media/weather.bfdb421bd87ecade3eb9.png",
@@ -17,11 +17,11 @@
     "static/media/banking_app.png": "/sebua_portfolio/static/media/banking_app.d455932025b5cfcc6db5.png",
     "static/media/clock.png": "/sebua_portfolio/static/media/clock.b417629b85d825498e33.png",
     "index.html": "/sebua_portfolio/index.html",
-    "main.9a0ff23b.css.map": "/sebua_portfolio/static/css/main.9a0ff23b.css.map",
-    "main.bc9efb3c.js.map": "/sebua_portfolio/static/js/main.bc9efb3c.js.map"
+    "main.6f690316.css.map": "/sebua_portfolio/static/css/main.6f690316.css.map",
+    "main.fa0c72f1.js.map": "/sebua_portfolio/static/js/main.fa0c72f1.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a0ff23b.css",
-    "static/js/main.bc9efb3c.js"
+    "static/css/main.6f690316.css",
+    "static/js/main.fa0c72f1.js"
   ]
 }
