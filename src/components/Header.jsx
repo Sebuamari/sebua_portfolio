@@ -1,6 +1,6 @@
 import HeaderStyles from "../styles/Header.module.scss";
 import ThemeSwitcher from "./ThemeSwitcher.jsx";
-import HamburgerMenu from './HamburgerMenu';
+import HamburgerMenu from './HamburgerMenu.jsx';
 
 function Header() {
     const toggleClasses = () => {

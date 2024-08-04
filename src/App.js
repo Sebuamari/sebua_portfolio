@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./components/Header";
+import Header from "./components/Header.jsx";
 import Background from "./components/Background.jsx";
-import Landing from "./pages/Landing";
-import About from "./pages/About";
-import Skills from "./pages/Skills";
-import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
+import Landing from "./pages/Landing.jsx";
+import About from "./pages/About.jsx";
+import Skills from "./pages/Skills.jsx";
+import Projects from "./pages/Projects.jsx";
+import Contact from "./pages/Contact.jsx";
 import "./styles/reset.css";
 import "./styles/global.scss";
 
