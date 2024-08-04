@@ -15,7 +15,7 @@ const ThemeSwitcher = () => {
     }
 
     const toggleTheme = (e) => {
-        e.target.checked ? setDarkMode() : setLightMode();
+        e.target.checked ? setLightMode() : setDarkMode();
     }
 
     useEffect (() => {

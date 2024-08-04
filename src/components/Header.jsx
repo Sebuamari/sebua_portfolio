@@ -15,9 +15,9 @@ function Header() {
     return (
       <div className={HeaderStyles.header}>
         <nav className={HeaderStyles.header_container}>
-            <a id={HeaderStyles.nav_title} href="/" data-text="&lt;Full-stack developer/&gt;">
+            <Link id={HeaderStyles.nav_title} to="/" data-text="&lt;Full-stack developer/&gt;">
               &lt;Full-stack developer/&gt;
-            </a>
+            </Link>
             <div className={HeaderStyles.inner_container}>
               <HamburgerMenu onClick={toggleClasses}/>
               <div className={HeaderStyles.menu_items}>
