@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header.jsx";
 import Background from "./components/Background.jsx";
 import Landing from "./pages/Landing.jsx";
@@ -11,7 +11,7 @@ import "./styles/global.scss";
 
 function App() {
   return (
-    <BrowserRouter>
+    <>
       <Header />
       <Background />
       <div className="App">
@@ -23,7 +23,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </>
   );
 }
 
