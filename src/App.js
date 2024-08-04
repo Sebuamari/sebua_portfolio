@@ -17,6 +17,7 @@ function App() {
         <Background />
         <Routes>
           <Route path="/" element={<Landing />} />
+          <Route path="/sebua_portfolio" element={<Landing />} />
           <Route path="/about" element={<About />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Projects />} />
