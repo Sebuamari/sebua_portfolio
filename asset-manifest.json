@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/sebua_portfolio/static/css/main.01af276a.css",
+    "main.js": "/sebua_portfolio/static/js/main.8361180c.js",
+    "static/media/travel.png": "/sebua_portfolio/static/media/travel.a9fcf7b123fede19e9ee.png",
+    "static/media/slider.png": "/sebua_portfolio/static/media/slider.7db964f7f570b7020549.png",
+    "static/media/weather.png": "/sebua_portfolio/static/media/weather.bfdb421bd87ecade3eb9.png",
+    "static/media/online_shop.png": "/sebua_portfolio/static/media/online_shop.ccbb6a6e16852cfe9b26.png",
+    "static/media/casino.png": "/sebua_portfolio/static/media/casino.c94d1135fec8c4a85246.png",
+    "static/media/online_shop_admin.png": "/sebua_portfolio/static/media/online_shop_admin.f3bd59542801dc1a526c.png",
+    "static/media/loan_api.png": "/sebua_portfolio/static/media/loan_api.ff5c42997255f86e5cc1.png",
+    "static/media/redberry.png": "/sebua_portfolio/static/media/redberry.770805c40e0666dbe341.png",
+    "static/media/star_wars.png": "/sebua_portfolio/static/media/star_wars.b1a4fb8e92bd1f7efa90.png",
+    "static/media/calculator.png": "/sebua_portfolio/static/media/calculator.94fd1cad5316975f8512.png",
+    "static/media/machine.png": "/sebua_portfolio/static/media/machine.1062f7c945e567e437c3.png",
+    "static/media/search.png": "/sebua_portfolio/static/media/search.9686442e6b9a98520b83.png",
+    "static/media/banking_app.png": "/sebua_portfolio/static/media/banking_app.d455932025b5cfcc6db5.png",
+    "static/media/clock.png": "/sebua_portfolio/static/media/clock.b417629b85d825498e33.png",
+    "index.html": "/sebua_portfolio/index.html",
+    "main.01af276a.css.map": "/sebua_portfolio/static/css/main.01af276a.css.map",
+    "main.8361180c.js.map": "/sebua_portfolio/static/js/main.8361180c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01af276a.css",
+    "static/js/main.8361180c.js"
+  ]
+}
