@@ -14,21 +14,24 @@
             gap: 20px;
 
             h2 {
+                text-align: start;
                 font-size: 25px;
-                color: #B5BAD0;
+                color: var(--text-color);
             }
 
             ul {
                 display: flex;
                 flex-direction: row;
-                gap: 20px;
+                flex-wrap: wrap;
+                gap: 5px 10px;
 
                 .skill {
                     display: flex;
                     flex-direction: row;
                     justify-content: center;
                     align-items: center;
-                    background-color: var(--header-background-color);
+                    background-color: var(--skill-background-color);
+                    color: var(--text-color);
                     border-radius: 10px;
                     gap: 5px;
                     padding: 8px 13px;

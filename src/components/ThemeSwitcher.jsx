@@ -19,7 +19,7 @@ const ThemeSwitcher = () => {
     }
 
     useEffect (() => {
-        const currentTheme = localStorage.getItem("currentTheme");
+        const currentTheme = localStorage.getItem("currentTheme") ?? "light";
         currentTheme === "light" ? setLightMode() : setDarkMode();
     },[]);
 

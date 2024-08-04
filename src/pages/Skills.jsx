@@ -1,6 +1,8 @@
-import { useEffect, useState, useRef } from "react";
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaGitAlt, FaGithub, FaGitlab, FaDatabase, FaLanguage } from "react-icons/fa";
-import { SiCsharp, SiDotnet, SiPostgresql } from "react-icons/si";
+import { React } from "react";
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaGitAlt, FaGithub, FaGitlab } from "react-icons/fa";
+import { SiCsharp, SiDotnet } from "react-icons/si";
+import { TbApi, TbSql } from "react-icons/tb";
+import { ImCross } from "react-icons/im";
 import SkillsStyles from '../styles/Skills.module.scss';
 
 function Skills() {
@@ -10,10 +12,13 @@ function Skills() {
             { name: "CSS/SASS", icon: <FaCss3Alt /> },
             { name: "JavaScript", icon: <FaJsSquare /> },
             { name: "React/Next", icon: <FaReact /> },
+            { name: "API", icon: <TbApi />}
         ],
         "backend development": [
             { name: "C#", icon: <SiCsharp /> },
             { name: ".NET", icon: <SiDotnet /> },
+            { name: "NLog", icon: <SiDotnet /> },
+            { name: "API", icon: <TbApi />}
         ],
         "version control": [
             { name: "GIT", icon: <FaGitAlt /> },
@@ -21,19 +26,21 @@ function Skills() {
             { name: "Gitlab", icon: <FaGitlab /> },
         ],
         "database management": [
-            { name: "SQL", icon: <FaDatabase /> }
+            { name: "SQL", icon: <TbSql /> }
+        ],
+        "testing": [
+            { name: "Xunit", icon: <ImCross /> }
         ],
         "languages": [
-            { name: "Georgian (Native)", icon: <FaLanguage /> },
-            { name: "English (C1)", icon: <FaLanguage /> },
-            { name: "German (B2)", icon: <FaLanguage /> },
+            { name: "Georgian (Native)", icon: '' },
+            { name: "English (C1)", icon: '' },
+            { name: "German (B2)", icon: '' },
         ]
     };
 
     return (
         <div className={SkillsStyles.skills_container + " section_container"}>
             <h1>Skills</h1>
-
             <div className={SkillsStyles.categories}>
                 {Object.keys(skills).map(category => (
                     <div key={category} className={SkillsStyles.category}>

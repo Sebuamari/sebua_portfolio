@@ -165,7 +165,8 @@
     background-color: var(--header-background-color);
     padding: 20px 50px;
     position: sticky;
-    z-index: 2;
+    top: 0;
+    z-index: 3;
 
     &_container {
         @extend .flex-row-space-between;
@@ -294,13 +295,13 @@
                 width: 100%;
                 height: 0;
                 padding: 50px;
-                background-color: var(--hamburger-menu-background-color);
+                background-color: var(--header-background-color);
                 opacity: 0;
                 transition: all 0.5s ease-in-out;
 
                 &_active {
                     opacity: 1;
-                    height: calc(100% - 80px);
+                    height: 300px;
                 }
             }
         }
