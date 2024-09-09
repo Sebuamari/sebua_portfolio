@@ -1,12 +1,14 @@
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaGitAlt, FaGithub, FaGitlab, FaDatabase } from "react-icons/fa";
-import { SiCsharp, SiDotnet } from "react-icons/si";
+import { IoLogoNodejs } from "react-icons/io";
+import { SiCsharp, SiDotnet, SiExpress, SiMongodb, SiMongoose } from "react-icons/si";
 import { TbApi, TbSql } from "react-icons/tb";
 
 const Background = () => {
     const logos = [
-        FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaGitAlt, FaGithub, FaGitlab, FaDatabase, SiCsharp, SiDotnet, TbApi, TbSql
+        FaHtml5, SiMongodb, FaCss3Alt, FaJsSquare, FaReact, FaGitAlt, FaGithub, SiExpress, 
+        FaGitlab, FaDatabase, SiCsharp, SiMongoose, SiDotnet, TbApi, TbSql, IoLogoNodejs
       ];
 
       const logoContainerRef = useRef(null);
@@ -18,53 +20,69 @@ const Background = () => {
         const icon_height = 50;
     
         const positions = [
-          { 
+          {//HTML
             start: {x: window.innerWidth / 6, y: header_height},
             end: {x: 0, y: window.innerHeight / 2 + header_height}
           },
-          { 
+          {//MongoDB
+            start: {x: 0, y: header_height},
+            end: {x: window.innerWidth / 2, y: window.innerHeight / 2 + header_height}
+          },
+          {//CSS
             start: {x: 0, y: window.innerHeight / 3 + header_height},
             end: {x: window.innerWidth / 6, y: window.innerHeight - icon_height}
           },
-          { 
+          {//JS
             start: {x: 0, y: 2 * window.innerHeight / 3 + header_height},
             end: {x: window.innerWidth / 2, y: window.innerHeight - icon_height}
           },
-          { 
+          {//React
             start: {x: window.innerWidth / 3, y: window.innerHeight - icon_height},
             end: {x: window.innerWidth / 6, y: header_height}
           },
-          { 
+          {//GIT
             start: {x: window.innerWidth / 6, y: window.innerHeight - icon_height},
             end: {x: 2 * window.innerWidth / 6, y: window.innerHeight / 2 + header_height}
           },
-          { 
+          {//Github
             start: {x: window.innerWidth / 2, y: window.innerHeight - icon_height},
             end: {x: 4 * window.innerWidth / 6, y: window.innerHeight / 2 + header_height}
           },
-          { 
+          {//Express.js
+            start: {x: 4 * window.innerWidth / 6, y: window.innerHeight - icon_height},
+            end: {x: window.innerWidth / 2, y: window.innerHeight / 2 + header_height}
+          },
+          {//Gitlab
             start: {x: 5 * window.innerWidth / 6, y: window.innerHeight - icon_height},
             end: {x: window.innerWidth - header_height, y: window.innerHeight / 2 + header_height}
           },
-          { 
+          {//Database
             start: {x: window.innerWidth - icon_height, y: 2 * window.innerHeight / 3},
             end: {x: window.innerWidth / 2, y: header_height}
           },
-          { 
+          {//C#
             start: {x: window.innerWidth - icon_height, y: window.innerHeight / 3},
             end: {x: 5 * window.innerWidth / 6, y: header_height}
           },
-          { 
+          {//Mongoose
+            start: {x: window.innerWidth - icon_height, y: window.innerHeight - icon_height},
+            end: {x: window.innerWidth / 2, y: window.innerHeight / 2 + icon_height}
+          },
+          {//.NET
             start: {x: 5 * window.innerWidth / 6, y: header_height},
             end: {x: window.innerWidth / 2, y: window.innerHeight / 2 + header_height}
           },
-          { 
+          {//API
             start: {x: 4 * window.innerWidth / 6, y: header_height},
             end: {x: 5 * window.innerWidth / 6, y: window.innerHeight - icon_height}
           },
-          { 
+          {//SQL
             start: {x: window.innerWidth / 2, y: header_height},
             end: {x: 2 * window.innerWidth / 6, y: window.innerHeight / 2 + header_height}
+          },
+          {//Node.js
+            start: {x: 2 * window.innerWidth / 6, y: header_height},
+            end: {x: window.innerWidth / 6, y: window.innerHeight / 2 + header_height}
           },
         ];
     

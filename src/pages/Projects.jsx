@@ -13,6 +13,8 @@ import machine from '../../src/img/machine.png';
 import clock from '../../src/img/clock.png';
 import loanApi from '../../src/img/loan_api.png';
 import banking from '../../src/img/banking_app.png';
+import timestamp from '../../src/img/timestamp.png';
+import whoami from '../../src/img/whoami.png';
 import ProjectsStyles from "../styles/Projects.module.scss";
 
 function Projects() {
@@ -139,6 +141,22 @@ function Projects() {
                 techStack: [".NET", "C#"],
                 image: banking,
                 githubUrl: "https://github.com/Sebuamari/Banking_application",
+            },
+            {
+                name: "Timestamp microservice",
+                description: "A simple API for converting date into unix and UTC values.",
+                techStack: ["JavaScript", "Node.js", "Express.js"],
+                image: timestamp,
+                githubUrl: "https://github.com/Sebuamari/timestamp-microservice",
+                liveUrl: "https://timestamp-microservice-hwyzgvh4i-sebuamaris-projects.vercel.app/",
+            },
+            {
+                name: "Who am I?",
+                description: "A simple API to get user's IP address, browser preferred language and software data.",
+                techStack: ["JavaScript", "Node.js", "Express.js"],
+                image: whoami,
+                githubUrl: "https://github.com/Sebuamari/whoami",
+                liveUrl: "https://whoami-25wr6hwuq-sebuamaris-projects.vercel.app/",
             },
         ]
     };

@@ -1,6 +1,7 @@
 import { React } from "react";
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaGitAlt, FaGithub, FaGitlab } from "react-icons/fa";
-import { SiCsharp, SiDotnet } from "react-icons/si";
+import { IoLogoNodejs } from "react-icons/io";
+import { SiCsharp, SiDotnet, SiExpress, SiMongodb, SiMongoose } from "react-icons/si";
 import { TbApi, TbSql } from "react-icons/tb";
 import { ImCross } from "react-icons/im";
 import SkillsStyles from '../styles/Skills.module.scss';
@@ -17,8 +18,9 @@ function Skills() {
         "backend development": [
             { name: "C#", icon: <SiCsharp /> },
             { name: ".NET", icon: <SiDotnet /> },
-            { name: "NLog", icon: <SiDotnet /> },
-            { name: "API", icon: <TbApi />}
+            { name: "Node.js", icon: <IoLogoNodejs />},
+            { name: "Express.js", icon: <SiExpress />},
+            { name: "NLog", icon: <SiDotnet /> }
         ],
         "version control": [
             { name: "GIT", icon: <FaGitAlt /> },
@@ -26,7 +28,9 @@ function Skills() {
             { name: "Gitlab", icon: <FaGitlab /> },
         ],
         "database management": [
-            { name: "SQL", icon: <TbSql /> }
+            { name: "SQL", icon: <TbSql /> },
+            { name: "MongoDB", icon: <SiMongodb /> },
+            { name: "Mongoose", icon: <SiMongoose /> }
         ],
         "testing": [
             { name: "Xunit", icon: <ImCross /> }
