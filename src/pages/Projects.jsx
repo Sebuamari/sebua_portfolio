@@ -22,14 +22,14 @@ function Projects() {
         fullstack: [
         ],
         frontend: [
-            {
-                name: "Casino Landing",
-                description: "A simple Casino landing page which displays game templates and their names fetched from an API. It's possible to search the games by user input",
-                techStack: ["HTML", "CSS", "JavaScript", "API"],
-                image: casino,
-                githubUrl: "https://github.com/Sebuamari/Casino-Page",
-                liveUrl: "https://sebuamari.github.io/Casino-Page/"
-            },
+            // {
+            //     name: "Casino Landing",
+            //     description: "A simple Casino landing page which displays game templates and their names fetched from an API. It's possible to search the games by user input",
+            //     techStack: ["HTML", "CSS", "JavaScript", "API"],
+            //     image: casino,
+            //     githubUrl: "https://github.com/Sebuamari/Casino-Page",
+            //     liveUrl: "https://sebuamari.github.io/Casino-Page/"
+            // },
             {
                 name: "Online shop",
                 description: "A simple online store made with ReactJS and GraphQL endpoint featuring simple functionalities",
@@ -46,14 +46,14 @@ function Projects() {
                 githubUrl: "https://github.com/Sebuamari/redberry-bootcamp-assignment",
                 liveUrl: "https://sebuamari.github.io/redberry-bootcamp-assignment/"
             },
-            {
-                name: "Weather App",
-                description: "A simple Weather App, where you can check the current weather in any city all around the world",
-                techStack: ["HTML", "CSS", "JavaScript", "API"],
-                image: weather,
-                githubUrl: "https://github.com/Sebuamari/Weather-App",
-                liveUrl: "https://sebuamari.github.io/Weather-App/"
-            },
+            // {
+            //     name: "Weather App",
+            //     description: "A simple Weather App, where you can check the current weather in any city all around the world",
+            //     techStack: ["HTML", "CSS", "JavaScript", "API"],
+            //     image: weather,
+            //     githubUrl: "https://github.com/Sebuamari/Weather-App",
+            //     liveUrl: "https://sebuamari.github.io/Weather-App/"
+            // },
             {
                 name: "Star Wars Characters",
                 description: "A simple React app where user can find data about \"Star Wars\" characters",
@@ -70,62 +70,62 @@ function Projects() {
                 githubUrl: "https://github.com/Sebuamari/gita_task",
                 liveUrl: "https://sebuamari.github.io/App"
             },
-            {
-                name: "Image Slider",
-                description: "A simple image slider",
-                techStack: ["HTML", "CSS", "JavaScript"],
-                image: imageSlider,
-                githubUrl: "https://github.com/Sebuamari/Image-Slider",
-                liveUrl: "https://sebuamari.github.io/Image-Slider/"
-            },
-            {
-                name: "Autocomplete Search",
-                description: "A simple search input with autocomplete feature",
-                techStack: ["HTML", "CSS", "JavaScript"],
-                image: search,
-                githubUrl: "https://github.com/Sebuamari/AutoComplete-Search",
-                liveUrl: "https://sebuamari.github.io/AutoComplete-Search/"
-            },
-            {
-                name: "Travel Agency Landing",
-                description: "A simple travel agency landing page",
-                techStack: ["HTML", "CSS", "JavaScript"],
-                image: travel,
-                githubUrl: "https://github.com/Sebuamari/UnilabTask",
-                liveUrl: "https://sebuamari.github.io/UnilabTask/"
-            },
-            {
-                name: "Random Advice Generator",
-                description: "React app that generates random quotes fethced from API",
-                techStack: ["HTML", "CSS", "JavaScript", "React", "API"],
-                image: casino,
-                githubUrl: "https://github.com/Sebuamari/advicer",
-                liveUrl: "https://sebuamari.github.io/advicer/"
-            },
-            {
-                name: "JavaScript Calculator",
-                description: "JavaScript calculator supporting basic mathematical operations",
-                techStack: ["HTML", "CSS", "JavaScript", "React"],
-                image: calculator,
-                githubUrl: "https://codepen.io/sebuamari/pen/WNdLNEB",
-                liveUrl: "https://codepen.io/sebuamari/pen/WNdLNEB"
-            },
-            {
-                name: "Drum Machine",
-                description: "A simple app that lets you explore a variety of quirky and fun sound effects",
-                techStack: ["HTML", "CSS", "JavaScript", "React"],
-                image: machine,
-                githubUrl: "https://codepen.io/sebuamari/pen/vYprajN",
-                liveUrl: "https://codepen.io/sebuamari/pen/vYprajN"
-            },
-            {
-                name: "25 + 5 Clock",
-                description: "A simple JS app featuing timestop and timer functionalites",
-                techStack: ["HTML", "CSS", "JavaScript"],
-                image: clock,
-                githubUrl: "https://codepen.io/sebuamari/pen/VwyRVQm",
-                liveUrl: "https://codepen.io/sebuamari/pen/VwyRVQm"
-            },
+            // {
+            //     name: "Image Slider",
+            //     description: "A simple image slider",
+            //     techStack: ["HTML", "CSS", "JavaScript"],
+            //     image: imageSlider,
+            //     githubUrl: "https://github.com/Sebuamari/Image-Slider",
+            //     liveUrl: "https://sebuamari.github.io/Image-Slider/"
+            // },
+            // {
+            //     name: "Autocomplete Search",
+            //     description: "A simple search input with autocomplete feature",
+            //     techStack: ["HTML", "CSS", "JavaScript"],
+            //     image: search,
+            //     githubUrl: "https://github.com/Sebuamari/AutoComplete-Search",
+            //     liveUrl: "https://sebuamari.github.io/AutoComplete-Search/"
+            // },
+            // {
+            //     name: "Travel Agency Landing",
+            //     description: "A simple travel agency landing page",
+            //     techStack: ["HTML", "CSS", "JavaScript"],
+            //     image: travel,
+            //     githubUrl: "https://github.com/Sebuamari/UnilabTask",
+            //     liveUrl: "https://sebuamari.github.io/UnilabTask/"
+            // },
+            // {
+            //     name: "Random Advice Generator",
+            //     description: "React app that generates random quotes fethced from API",
+            //     techStack: ["HTML", "CSS", "JavaScript", "React", "API"],
+            //     image: casino,
+            //     githubUrl: "https://github.com/Sebuamari/advicer",
+            //     liveUrl: "https://sebuamari.github.io/advicer/"
+            // },
+            // {
+            //     name: "JavaScript Calculator",
+            //     description: "JavaScript calculator supporting basic mathematical operations",
+            //     techStack: ["HTML", "CSS", "JavaScript", "React"],
+            //     image: calculator,
+            //     githubUrl: "https://codepen.io/sebuamari/pen/WNdLNEB",
+            //     liveUrl: "https://codepen.io/sebuamari/pen/WNdLNEB"
+            // },
+            // {
+            //     name: "Drum Machine",
+            //     description: "A simple app that lets you explore a variety of quirky and fun sound effects",
+            //     techStack: ["HTML", "CSS", "JavaScript", "React"],
+            //     image: machine,
+            //     githubUrl: "https://codepen.io/sebuamari/pen/vYprajN",
+            //     liveUrl: "https://codepen.io/sebuamari/pen/vYprajN"
+            // },
+            // {
+            //     name: "25 + 5 Clock",
+            //     description: "A simple JS app featuing timestop and timer functionalites",
+            //     techStack: ["HTML", "CSS", "JavaScript"],
+            //     image: clock,
+            //     githubUrl: "https://codepen.io/sebuamari/pen/VwyRVQm",
+            //     liveUrl: "https://codepen.io/sebuamari/pen/VwyRVQm"
+            // },
         ],
         backend: [
             {
