@@ -15,6 +15,7 @@ import loanApi from '../../src/img/loan_api.png';
 import banking from '../../src/img/banking_app.png';
 import timestamp from '../../src/img/timestamp.png';
 import whoami from '../../src/img/whoami.png';
+import northpole from '../../src/img/northpole.png';
 import ProjectsStyles from "../styles/Projects.module.scss";
 
 function Projects() {
@@ -141,6 +142,13 @@ function Projects() {
                 techStack: [".NET", "C#"],
                 image: banking,
                 githubUrl: "https://github.com/Sebuamari/Banking_application",
+            },
+            {
+                name: "Noth Pole Analytics",
+                description: "API for Santa Claus to work smoothly during Christmas.",
+                techStack: ["Python", "Django"],
+                image: northpole,
+                githubUrl: "https://github.com/Sebuamari/NorthPoleAnalytics",
             },
             {
                 name: "Timestamp microservice",

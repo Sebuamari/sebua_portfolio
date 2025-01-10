@@ -1,7 +1,8 @@
 import { React } from "react";
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaGitAlt, FaGithub, FaGitlab } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaGitAlt, FaGithub, FaGitlab, FaPython } from "react-icons/fa";
 import { IoLogoNodejs } from "react-icons/io";
 import { SiCsharp, SiDotnet, SiExpress, SiMongodb, SiMongoose } from "react-icons/si";
+import { DiDjango } from "react-icons/di";
 import { TbApi, TbSql } from "react-icons/tb";
 import { ImCross } from "react-icons/im";
 import SkillsStyles from '../styles/Skills.module.scss';
@@ -20,7 +21,9 @@ function Skills() {
             { name: ".NET", icon: <SiDotnet /> },
             { name: "Node.js", icon: <IoLogoNodejs />},
             { name: "Express.js", icon: <SiExpress />},
-            { name: "NLog", icon: <SiDotnet /> }
+            { name: "NLog", icon: <SiDotnet /> },
+            { name: "Python", icon: <FaPython /> },
+            { name: "Django", icon: <DiDjango /> }
         ],
         "version control": [
             { name: "GIT", icon: <FaGitAlt /> },

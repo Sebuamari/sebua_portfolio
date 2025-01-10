@@ -1,14 +1,16 @@
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaGitAlt, FaGithub, FaGitlab, FaDatabase } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaGitAlt, FaGithub, FaGitlab, FaDatabase, FaPython } from "react-icons/fa";
 import { IoLogoNodejs } from "react-icons/io";
+import { DiDjango } from "react-icons/di";
 import { SiCsharp, SiDotnet, SiExpress, SiMongodb, SiMongoose } from "react-icons/si";
 import { TbApi, TbSql } from "react-icons/tb";
 
 const Background = () => {
     const logos = [
         FaHtml5, SiMongodb, FaCss3Alt, FaJsSquare, FaReact, FaGitAlt, FaGithub, SiExpress, 
-        FaGitlab, FaDatabase, SiCsharp, SiMongoose, SiDotnet, TbApi, TbSql, IoLogoNodejs
+        FaGitlab, FaDatabase, SiCsharp, SiMongoose, SiDotnet, TbApi, TbSql, IoLogoNodejs,
+        FaPython, DiDjango
       ];
 
       const logoContainerRef = useRef(null);
@@ -83,6 +85,14 @@ const Background = () => {
           {//Node.js
             start: {x: 2 * window.innerWidth / 6, y: header_height},
             end: {x: window.innerWidth / 6, y: window.innerHeight / 2 + header_height}
+          },
+          {//Python
+            start: {x: window.innerWidth / 6, y: window.innerHeight / 3 + header_height},
+            end: {x: 5 * window.innerWidth / 6, y: 2 * window.innerHeight / 3}
+          },
+          {//Django
+            start: {x: 5 * window.innerWidth / 6, y: 2 * window.innerHeight / 3},
+            end: {x: window.innerWidth / 6, y: window.innerHeight / 3 + header_height}
           },
         ];
     
